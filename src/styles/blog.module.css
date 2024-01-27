@@ -1,0 +1,77 @@
+.blogCard, .mainBlogImage {
+    border-radius: 7px;
+}
+.blogHeading, .sideblogHeading {
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.sideblogHeading {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.adminText {
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+.bolgDesc {
+    color: #555;
+    font-size: 17px;
+    margin-top: 19px;
+}
+.blogButton {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    display: inline-block;
+}
+.blogLine {
+ width: 3px;
+ background-color: #057EFF;
+}
+.blogForm {
+    background-image: url("../../public/images/blog/blogForm.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 95px 24px;
+    text-align: center;
+    border-radius: 6px;
+}
+.blogForm h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.detailsDev h1, .detailsDev h2 {
+    font-size: 22px;
+    color: var(--primary-color);
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.detailsDev h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+.detailsDev h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-family: var(--font-poppins);
+    margin-bottom: 5px;
+}
+.detailsDev p {
+    font-size: 17px;
+    color: var(--primary-color);
+    font-family: var(--font-poppins);
+    margin-bottom: 20px;
+}

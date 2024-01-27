@@ -1,0 +1,61 @@
+.sliderContent {
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 87px 50px;
+    max-width: 486px;
+    width: 100%;
+    min-height: 486px;
+    border-radius: 100%;
+}
+.sliderContent h1 {
+color: #FF9403 !important;
+text-align: center;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+}
+.sliderContent p {
+color: #FFF !important;
+text-align: center;
+font-family: var(--font-poppins);
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 48.5px; /* 220.455% */
+text-transform: capitalize;
+}
+.mainSlider .prevBtn, .mainSlider .nextBtn {
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #057EFF;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vlaueImg {
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.sliderImages {
+    gap: 20px;
+}
+@media (max-width: 500px) {
+    .sliderContent {
+        border-radius: 5px !important;
+        padding: 30px 20px;
+        min-height: auto !important;
+    }
+    .sliderContent p {
+        line-height: 36px;
+    }
+    .sliderImages {
+        gap: 10px
+    }
+}
